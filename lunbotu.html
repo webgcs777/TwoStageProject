@@ -1,0 +1,60 @@
+<style type="text/css">
+	#oImg {
+		background-size: 100% 100%;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		overflow: hidden;
+		width:100%;
+		height:0;
+	    padding-bottom: 43.25%;
+	}
+
+	#btn-previous {
+		width: 30px;
+		position: absolute;
+		left: 25px;
+		top: 310px;
+	}
+
+	#btn-next {
+		width: 30px;
+		position: absolute;
+		right: 25px;
+		top: 310px;
+	}
+
+	#oImg ul {
+		position: absolute;
+	
+		      left: 50%;
+		    bottom: 6px;
+	}
+
+	#oImg ul li {
+		list-style: none;
+		width: 10px;
+		height: 10px;
+		background: #ffffff;
+		border-radius: 50%;
+		margin: 10px;
+		float: left;
+</style>
+<div id="oImg">
+	<input type="button" id="btn-previous" value="<">
+	<input type="button" id="btn-next" value=">">
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+<script src="jQuery.js" type="text/javascript" charset="utf-8"></script>
+<script src="lunbotu.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	let oDiv = document.querySelector("#oImg");
+	let oLis = document.querySelectorAll("section>div>div>ul>li");
+	let b = new Banner(oDiv, oLis);
+	b.getEvent();
+	
+</script>
