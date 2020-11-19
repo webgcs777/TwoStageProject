@@ -16,7 +16,7 @@ $(".header-a-color ul").mouseout(function() {
 
 $(".header-a-color").mouseout(function() {
 	//移出要隐藏的那个元素  身上时  隐藏
-    $(".header-a-color ul").hide();
+	$(".header-a-color ul").hide();
 });
 
 // 文字变色
@@ -69,57 +69,75 @@ $(function() {
 	$(window).scroll(function() {
 		if ($(window).scrollTop() > 180) {
 			$(".xiding").css({
-				"display":"block",
+				"display": "block",
 				"position": "fixed",
-				"top": 0,		
+				"top": 0,
 				"width": "100%",
 				"z-index": 55
 			});
 		} else {
 			$(".xiding").css({
 				"position": "static",
-				"display":"none"
+				"display": "none"
 			});
 		}
 	});
 });
 
-//子页面点击购物车跳转到购物车
+//跳转到购物车
+$(".gouwuche").click(() => {
+	location.href = "http://127.0.0.1/2008/Project/TheShoppingCart.html"
+})
 
-//加一减一
-// $(".button-1").click(function(){
-// 	$(this)
-// });
-//跳转到首页
-$(".Dshouye").click(()=>{
-		location.href="http://127.0.0.1/2008/Project/index.html"
-	})
-//跳转到登陆
-	$(".login").click(()=>{
-		location.href="http://127.0.0.1/2008/Project/index.html"
-	})
-	//跳转到注册
-	$(".registered").click(()=>{
-		location.href="http://127.0.0.1/2008/Project/registered.html"
-		
-	})
-	//调到 关于嘉木
-	$(".guanyu").click(()=>{
-		location.href="http://127.0.0.1/2008/Project/About.html"
-		
-	})
-	//调用  联系我们
-	$(".lianxi").click(()=>{
-		location.href="http://127.0.0.1/2008/Project/League.html"
-		
-	})
-    //调用   加盟方式
-    $(".jiameng").click(()=>{
-		location.href="http://127.0.0.1/2008/Project/Contact.html"
-		
-	})
-	//调用   节气故事
-	$(".yan").click(()=>{
-			location.href="http://127.0.0.1/2008/Project/SolarTerms.html"
-			
-		})
+//跳转到  首页
+$(".Dshouye").click(() => {
+	location.href = "http://127.0.0.1/2008/Project/index.html"
+})
+//放大镜的页面
+$(".fangda").click(() => {
+	location.href = "http://127.0.0.1/2008/Project/index_subpage.html"
+})
+//跳转到  登陆
+$(".login").click(() => {
+	location.href = "http://127.0.0.1/2008/Project/login.html"
+})
+//跳转到 注册
+$(".registered").click(() => {
+	location.href = "http://127.0.0.1/2008/Project/registered.html"
+})
+//调到 关于嘉木
+$(".guanyu").click(() => {
+	location.href = "http://127.0.0.1/2008/Project/About.html"
+})
+//调用  联系我们
+$(".lianxi").click(() => {
+	location.href = "http://127.0.0.1/2008/Project/League.html"
+
+})
+//调用   加盟方式
+$(".jiameng").click(() => {
+	location.href = "http://127.0.0.1/2008/Project/Contact.html"
+
+})
+//调用   节气故事
+$(".yan").click(() => {
+	location.href = "http://127.0.0.1/2008/Project/SolarTerms.html"
+
+})
+//调用   支付方式
+$(".zhifufangshi").click(() => {
+	location.href = "http://127.0.0.1/2008/Project/pay.html"
+})
+//调用   商品分类
+$(".classification").click(() => {
+	location.href = "http://127.0.0.1/2008/Project/classification.html"
+})
+
+// 搜索
+$(".suosou").click(() => {
+	location.href = "http://127.0.0.1/2008/Project/search.html"
+})
+
+
+
+

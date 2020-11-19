@@ -59,8 +59,8 @@
 			<div class="xiding">
 				<div id="header-2">
 					<ul class="header-a-color">
-						<li> <a href="">商城首页</a> </li>
-						<li class="erjicaidan-1"> <a href="">商品分类</a>
+						<li> <a class="Dshouye">商城首页</a> </li>
+						<li class="erjicaidan-1"> <a class="classification">商品分类</a>
 							<!--导航的ul的二级菜单-1-->
 							<ul class="a-color-1">
 								<a href="">
@@ -74,21 +74,21 @@
 								</a>
 							</ul>
 						</li>
-						<li class="erjicaidan-2"> <a href="">支付方式</a>
+						<li class="erjicaidan-2"> <a class="zhifufangshi">支付方式</a>
 							<!--导航的ul的二级菜单-2-->
 							<ul class="a-color-2">
-								<a href="">
+								<a class="zhifufangshi">
 									<li>在线支付</li>
 								</a>
-								<a href="">
+								<a class="zhifufangshi">
 									<li>银行转账</li>
 								</a>
-								<a href="">
+								<a class="zhifufangshi">
 									<li>货到付款</li>
 								</a>
 							</ul>
 						</li>
-						<li> <a href="">节气故事</a> </li>
+						<li> <a class="yan">节气故事</a> </li>
 						<li class="erjicaidan-3"> <a class="guanyu">关于嘉木</a>
 							<!--导航的ul的二级菜单-3-->
 							<ul class="a-color-3">
@@ -155,8 +155,8 @@
 		<div id="header-2">
 			<a href="index.html"><img src="img/logo.png"></a>
 			<ul class="header-a-color">
-				<li> <a href="" class="yan">商城首页</a> </li>
-				<li class="tou-1"> <a href="">商品分类</a>
+				<li> <a class="Dshouye">商城首页</a> </li>
+				<li class="tou-1"> <a class="classification">商品分类</a>
 					<!--导航的ul的二级菜单-1-->
 					<ul class="a-color-1">
 						<a href="">
@@ -170,21 +170,21 @@
 						</a>
 					</ul>
 				</li>
-				<li class="tou-2"> <a href="">支付方式</a>
+				<li class="tou-2"> <a class="zhifufangshi">支付方式</a>
 					<!--导航的ul的二级菜单-2-->
 					<ul class="a-color-2">
-						<a href="">
+						<a class="zhifufangshi">
 							<li>在线支付</li>
 						</a>
-						<a href="">
+						<a class="zhifufangshi">
 							<li>银行转账</li>
 						</a>
-						<a href="">
+						<a class="zhifufangshi">
 							<li>货到付款</li>
 						</a>
 					</ul>
 				</li>
-				<li> <a href="" class="yan">节气故事</a> </li>
+				<li> <a class="yan">节气故事</a> </li>
 				<li class="tou-3"> <a class="guanyu">关于嘉木</a>
 					<!--导航的ul的二级菜单-3-->
 					<ul class="a-color-3">
@@ -200,7 +200,7 @@
 
 			<span>
 				<input type="" name="" id="" value placeholder="嘉木/盆景/文玩" />
-				<a href="">
+				<a class="suosou">
 					<p>搜索</p>
 				</a>
 			</span>
@@ -213,45 +213,45 @@
 
 
 
-	<section>
-		<div class="password">
-			<p class="account">
-	
-			</p>
-			<p class="account">
-	
-			</p>
-		</div>
-	
-		<div class="landing">
-			<form action="PHP/login.php" method="">
-				<div class="landing-4">
-					<span>名称</span>
-					  <input type="text" id="loginname" />
-					  <p class="dengluge">as</p>
-				</div>
-				<div class="landing-5">
-					<span>密码</span>
-					 <input type="text" id="loginpass" />
-					 <p class="dengluge">12</p>
-				</div>
-			</form>
-			<div class="landing-3">
-				<input type="checkbox" value="" />
-				<span>我同意《用户手册》和《保密条款》</span>
+		<section>
+			<div class="password">
+				<p class="account">
+
+				</p>
+				<p class="account">
+
+				</p>
 			</div>
-			 <button id="btn">登陆</button>
-		</div>
-	
-		<div class="login-footer">
-			<span id="">
-				说明：<br />
-				1.实际使用之前，需配置用户管理组件中的相关邮件。详情请参考教程：《用户管理中相关邮件的配置》
-				<br />
-				2.新用户注册后的审核方式有三种：自动核准、邮件激活、需要管理员批准（即人工审核），详情可参考教程《如何设置用户注册后的审核方式》
-			</span>
-		</div>
-	</section>
+
+			<div class="landing">
+				<form action="PHP/login.php" method="">
+					<div class="landing-4">
+						<span>名称</span>
+						<input type="text" id="loginname" />
+						<p class="dengluge"></p>
+					</div>
+					<div class="landing-5">
+						<span>密码</span>
+						<input type="text" id="loginpass" />
+						<p class="dengluge"></p>
+					</div>
+				</form>
+				<div class="landing-3">
+					<input type="checkbox" value="" id="star" />
+					<span>我同意《用户手册》和《保密条款》</span>
+				</div>
+				<button id="btn">登陆</button>
+
+			</div>
+			<div class="login-footer">
+				<span id="">
+					说明：<br />
+					1.实际使用之前，需配置用户管理组件中的相关邮件。详情请参考教程：《用户管理中相关邮件的配置》
+					<br />
+					2.新用户注册后的审核方式有三种：自动核准、邮件激活、需要管理员批准（即人工审核），详情可参考教程《如何设置用户注册后的审核方式》
+				</span>
+			</div>
+		</section>
 
 
 
@@ -297,23 +297,23 @@
 					<ul class="footer-ul">
 
 
-						<li><a href="">在线支付</a></li>
-						<li><a href="">货到付款</a></li>
-						<li><a href="">银行转账</a></li>
+						<li><a class="zhifufangshi">在线支付</a></li>
+						<li><a class="zhifufangshi">货到付款</a></li>
+						<li><a class="zhifufangshi">银行转账</a></li>
 					</ul>
 
 					<ul class="footer-ul">
 
-						<li><a href="">在线支付</a></li>
-						<li><a href="">货到付款</a></li>
-						<li><a href="">银行转账</a></li>
+						<li><a class="zhifufangshi">在线支付</a></li>
+						<li><a class="zhifufangshi">货到付款</a></li>
+						<li><a class="zhifufangshi">银行转账</a></li>
 					</ul>
 
 					<ul class="footer-ul">
 
-						<li><a href="">在线支付</a></li>
-						<li><a href="">货到付款</a></li>
-						<li><a href="">银行转账</a></li>
+						<li><a class="zhifufangshi">在线支付</a></li>
+						<li><a class="zhifufangshi">货到付款</a></li>
+						<li><a class="zhifufangshi">银行转账</a></li>
 					</ul>
 				</div>
 				<span>Copyright © 2010-2015 南之嘉木茶文化有限公司. All rights reserved.</span>
@@ -330,36 +330,48 @@
 
 
 <script>
-    btn.onclick = function() {
-        let oName = document.querySelector("#loginname");
-        let oPass = document.querySelector("#loginpass");
-        let xhr = new XMLHttpRequest();
+	let oBox = document.querySelector("#star");
+	oBox.checked = true;
+	btn.onclick = function() {
+		let oName = document.querySelector("#loginname");
+		let oPass = document.querySelector("#loginpass");
+		let xhr = new XMLHttpRequest();
 
-        //get传参6ajaxGet.php?key1=value1&key2=value2....
-        xhr.open("post", "PHP/registered.php", true);
-        //post传参方式 需要在open后设置请求头
-        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+		//get传参6ajaxGet.php?key1=value1&key2=value2....
+		xhr.open("post", "PHP/login.php", true);
+		//post传参方式 需要在open后设置请求头
+		xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
-        xhr.onreadystatechange = function() {
-            if (xhr.status == 200 && xhr.readyState == 4) {
-                fun(xhr.responseText);
-            }
-        }
+		xhr.onreadystatechange = function() {
+			if (xhr.status == 200 && xhr.readyState == 4) {
+				fun(xhr.responseText);
+			}
+		}
 
-        //如果数据发送为post方式
-        //参数在send中发送
-        //key1=value1&key2=value2...
-        xhr.send("userName=" + oName.value + "&userPass=" + oPass.value);
-    }
+		//如果数据发送为post方式
+		//参数在send中发送
+		//key1=value1&key2=value2...
+		xhr.send("userName=" + oName.value + "&userPass=" + oPass.value);
+	}
 
-    function fun(resText) {
-        let oSpan = document.querySelector(".dengluge");
-        console.log(resText);
-        if (resText == "1") {
-            oSpan.innerHTML = "存在相同的名称";
-        } else {
-            oSpan.innerHTML = "成功";
-	        location.href="http://127.0.0.1/2008/Project/index_subpage.html"
-        }
-    }
+
+
+
+
+	function fun(resText) {
+		let oSpan = document.querySelector(".dengluge");
+		if (oBox.checked == true) {
+			if (resText == 1) {
+
+				location.href = "http://127.0.0.1/2008/Project/index_subpage.html"
+				oSpan.innerHTML = "成功";
+
+			} else {
+				oSpan.innerHTML = "你不对劲";
+			}
+		} else if (oBox.checked == false) {
+			alert("你不同意怎么我怎么坑你啊");
+		}
+
+	}
 </script>
