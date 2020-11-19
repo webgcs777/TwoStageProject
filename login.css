@@ -1,0 +1,468 @@
+/* 导航 */
+header .header-ul {
+	height: 64px;
+	    margin: 0 auto;
+	    width: 70%;
+	/* background-color: navajowhite; */
+	display: flex;
+	justify-content: space-between;
+	line-height: 40px;
+	color: #666666;
+
+}
+
+header .header-ul li {
+	display: flex;
+	justify-content: space-between;
+}
+
+header .header-ul .icon {
+	margin-top: 14px;
+	font-size: 12px;
+}
+
+header #header-ul-span {
+	margin-right: 20px;
+	font-size: ;
+}
+
+header .header-ul li span {
+	display: flex;
+	justify-content: space-between;
+}
+
+header .header-ul li span a {
+	width: 50px;
+	color: #666666;
+	display: flex;
+	justify-content: space-around;
+}
+/* 隐藏的头 */
+#hidden{
+width: 100%;
+display: none;
+
+}
+#hidden-hi{
+	display: flex;
+}
+#hidden p{
+	     display: inline;
+	     padding-top: 20px;
+	     padding-left: 17px;
+	     width: 58px;
+	     height: 62px;
+}
+#hidden p img {
+	width: 17px;
+	height: 17px;
+}
+#hidden img {
+	width: 35px;
+	height: 62px;
+}
+#hidden .hidden-2{
+	    margin: auto;
+	    text-align: center;
+}
+#hidden .hidden-2 a{
+	display: inline;
+
+}
+#hidden span{
+	    width: 60px;
+	    padding-top: 25px;
+	    display: flex;
+	    justify-content: space-between;
+}
+#hidden span a{
+	  color: #000000;
+}
+/* 搜索框 */
+#header-2 {
+	background-color: white;
+	    margin: 0 auto;
+	    width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	
+
+}
+
+#header-2 a img {
+	height: 108px;
+	width: 55px;
+	padding-bottom: 20px;
+}
+
+#header-2 .header-a-color {
+	display: flex;
+	width: 710px;
+	    justify-content: space-around;
+	    position: relative;
+	    margin: 0 auto;
+	    font-size: 13px;
+}
+#header-2 .header-a-color li .yan,.yanse{
+	display: block;
+	      width: 80px;
+	      height: 45px;
+}
+
+#header-2 .header-a-color li a {
+	color: #b2b2b2;
+}
+/* 吸顶	 */
+.xiding{
+       height: 58px;
+       line-height: 58px;
+    background-color: white;
+    margin: 0 auto;
+    display: none;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.xiding #header-2 .header-a-color .a-color-1 {
+	top: 42px;
+	left: -25px;
+}
+.xiding #header-2 .header-a-color .a-color-2 {
+		top: 42px;
+}
+.xiding #header-2 .header-a-color .a-color-3 {
+	top: 42px;
+}
+
+.erjicaidan-1,
+.erjicaidan-2,
+.erjicaidan-3{
+	position: relative;
+}
+.erjicaidan-1>a,
+.erjicaidan-2>a,
+.erjicaidan-3>a{
+	 display: block;
+    width: 80px;
+    height: 45px;
+}
+/* 导航的ul的二级菜单*/
+#header-2 .header-a-color ul {
+	position: absolute;
+	width: 110px;
+	background-color: #ffffff;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid rgba(119, 119, 119, 0.1);
+	display: none;
+}
+
+#header-2 .header-a-color li .yanse {
+	color: #666666;
+}
+.tou-1,
+.tou-2,
+.tou-3{
+	position: relative;
+}
+.tou-1>a,
+.tou-2>a,
+.tou-3>a{
+	 display: block;
+    width: 80px;
+    height: 45px;
+}
+   
+
+/* 导航的ul的二级菜单 -1*/
+#header-2 .header-a-color .a-color-1 {
+	position: absolute;
+	    left: -27px;
+	    top: 33px;
+	    z-index: 7;
+}
+
+/* 导航的ul的二级菜单 -2*/
+#header-2 .header-a-color .a-color-2 {
+position: absolute;
+    left: -21px;
+    top: 33px;
+    z-index: 8;
+}
+
+/* 导航的ul的二级菜单-3*/
+#header-2 .header-a-color .a-color-3 {
+	    right: 0%;
+	    top: 33px;
+	    z-index: 9;
+
+}
+
+#header-2 span {
+	height: 33px;
+	width: 260px;
+	border: 1px solid #c90000;
+	display: flex;
+	padding-left: 5px;
+margin-bottom: 20px;
+
+
+}
+
+#header-2 span input {
+	width: 210px;
+	border: none;
+	font-family: #c90000;
+	color: #757575;
+}
+
+
+#header-2 span a {
+	width: 50px;
+	padding-top: 4px;
+	padding-left: 10px;
+	background-color: #c90000;
+
+
+}
+
+#header-2 span a p {
+	color: white;
+	font-size: 14px;
+}
+/* 隐藏的里面的头 */
+#hidden{
+width: 100%;
+display: none;
+ background-color: white;
+}
+#hidden-hi{
+	display: flex;
+}
+ #hidden p{
+	     display: inline;
+	     padding-top: 20px;
+	     padding-left: 17px;
+	     width: 58px;
+	     height: 62px;
+}
+#hidden p img {
+	width: 17px;
+	height: 17px;
+}
+#hidden img {
+	width: 35px;
+	height: 62px;
+}
+#hidden .hidden-2{
+	    margin: auto;
+	    text-align: center;
+}
+#hidden .hidden-2 a{
+	display: inline;
+
+}
+#hidden span{
+	    width: 60px;
+	    padding-top: 25px;
+	    display: flex;
+	    justify-content: space-between;
+}
+#hidden span a{
+	  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 中间 */
+.password{
+	margin: 0 auto;
+	width: 70%;
+	border-top: 1px solid black;
+	padding-top: 70px;
+}
+
+.account{
+	
+	text-align: center;
+	color: #696969;
+}
+
+
+
+.landing{
+	height: 246px;
+    max-width: 480px;
+    width: 100%;	
+	border: 1px solid black;
+	margin: 70px auto;
+}
+
+
+.landing input{
+	height: 30px;
+	background-color: #f5f5f5;
+}
+
+.landing .landing-1 span{
+	    margin-left: 10px;
+	      margin-right: 205px;
+}
+
+.landing div{
+	margin-top: 10px;
+}
+
+.landing .landing-2 span {
+	    margin-left: 10px;
+	   margin-right: 189px;
+}
+.landing-3{
+    margin-left: 200px;
+	font-size: 13px;
+
+}
+.landing-3 input{
+float: left;
+    width: 30px;
+    height: 16px;
+}
+
+.login-footer{
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 70px;
+	
+}
+.landing-4 span{
+	margin-left: 10px;
+    margin-right: 243px;
+	font-size: 13px;
+
+}
+.landing-5 span{
+	margin-left: 10px;
+  margin-right: 243px;
+	font-size: 13px;
+
+}
+
+.landing-5  p {
+	display: block;
+	margin-left: 284px;
+	margin-right: 4px;
+}
+
+
+/* 是否登录成功 */
+.landing-5 .dengluge{
+	 display: block;
+    margin-left: 284px;
+    margin-right: 4px;
+	
+}
+ .landing-4 .dengluge{
+ 	 display: block;
+     margin-left: 284px;
+     margin-right: 4px;
+ 	
+ } 
+
+
+
+
+
+
+
+
+
+/* 尾部 */
+footer {	
+	height: 335px;
+	background-color: #f2f2f2;
+
+}
+
+#footer-end {
+	margin: 0 auto;
+	height: 335px;
+    width: 50%;
+}
+
+.footer-1 {
+	text-align: center;
+	padding-top: 40px;
+}
+
+footer #footer-end img {
+	height: 90px;
+	width: 55px;
+}
+
+.footer-ul-1 {
+
+	display: flex;
+	justify-content: space-around;
+	margin-top: 35px;
+	font-size: 16px;
+
+}
+
+#footer-end .footer-2 {
+	height: 107px;
+	display: flex;
+	line-height: 35px;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 13px;
+}
+
+.footer-ul a {
+	color: #b2b2b2;
+}
+
+#footer-end span {
+	display: block;
+
+	font-size: 13px;
+	text-align: center;
+	color: #b2b2b2;
+
+}
+/* 响应式 */
+/* 994 以下 */
+@media screen and (max-width:992px) {
+   header .header-ul {
+        display: none;
+		}
+		#header-2 {
+			 display: none;
+		}
+		#hidden{
+			display: block;
+		}
+		#goods-bottom ul li {
+		    width: 50%;
+		}
+		#count-footer ul {
+			display: none;
+		}
+		#oImg input{
+			display: none;
+		}
+		#oImg ul li {
+			display: none;
+			
+		}
+    }

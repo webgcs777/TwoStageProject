@@ -1,0 +1,39 @@
+.About{
+	margin: 0 auto;
+}
+.About-1 img{
+	height: 100%;
+	width: 100%;
+}
+/* 中间内容 */
+#goods-top {
+	padding-top: 50px;
+	text-align: center;
+	
+}
+#goods-top h3{
+	font-size: 26px;
+	font-family: "宋体";
+	font-weight: normal;
+	
+}
+#goods-top b{
+	display: block;
+	font-size: 17px;
+	padding-top: 10px;
+	padding-bottom: 30px;	
+	font-family: raleway;
+}
+#goods-top .icon{
+	    color: #adadad;
+}
+/* 尾部 */
+.About-bottom{
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.About-bottom p{
+	margin-top: 20px;
+	color: #696969;
+}

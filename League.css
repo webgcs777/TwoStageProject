@@ -1,0 +1,31 @@
+/* 内容最后 */
+#count-footer{
+	/* color:#6666 */
+}
+#count-footer ul {
+	    display: flex;
+	    justify-content: space-around;
+	    width: 70%;
+	/*    background-color: #0077AA; */
+	    margin: 0 auto;
+	    height: 161px;
+	    align-items: center;
+	
+}
+#count-footer ul li{
+	text-align: center;
+}
+#count-footer ul li span{
+	display: block;
+	width: 82px;
+	height: 82px;
+	border-radius: 50%;
+	border: 1px solid #777777;
+	text-align: center;
+	line-height: 100px;
+	margin-left: 18px;
+}
+#count-footer ul li span svg{
+   font-size: 45px;
+}
+

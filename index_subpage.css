@@ -1,0 +1,147 @@
+.subpage {
+	margin: 0 auto;
+	width: 70%;
+	/* position: relative; */
+/* 	background-color: hotpink;
+ */
+}
+
+
+
+#small-box {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	background-image: url(../img/a1.png);
+	background-size: 200px 200px;
+    top: 40px;
+    left: 40px;
+}
+
+#mask {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: red;
+	opacity: 0.3;
+	cursor: move;
+	display: none;
+}
+
+#big-box {
+	display: none;
+	width: 400px;
+	height: 400px;
+	position: relative;
+	background-image: url(../img/a1.png);
+	background-size: 800px 800px;
+    top: -170px;
+    left: 270px;
+}
+/* 头部 */
+.qwe {
+height: 300px;
+
+}
+.qwe-left{
+	 float: left;
+}
+.qwe-right{
+/*     position: relative; */
+	 top:10px;
+	 left: 50px;
+	 float: left;
+/* 	background-color: #0077AA; */
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.qwe-right h3{
+	color: #696969;
+}
+.qwe-right p{
+	height: 40px;
+	line-height: 40px;
+	
+}
+.qwe-right p:nth-of-type(2){
+	border-top: 1px dashed #696969;
+	border-bottom: 1px dashed #696969;
+}
+
+.qwe-right .money{
+	height: 50px;
+	font-size: 22px;
+	line-height: 50px;
+	border-top: 1px solid #696969;
+}
+.qwe-right button:nth-of-type(1){
+	width: 150px;
+	height: 50px;
+	background-color: #006FA8;
+	border: none;
+	color: white;
+}
+.qwe-right button:nth-of-type(2){
+	width: 30px;
+	height: 50px;
+}
+.qwe-right button:nth-of-type(3){
+	width: 30px;
+	height: 50px;
+}
+/* 中间 */
+.subpage-zhong{
+	margin-bottom: 40px;
+}
+.subpage-zhong span{
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.subpage-zhong  p{
+     height: 50px;
+	 border-top: 1px solid black;
+	 border-bottom: 1px solid black;
+}
+/* 尾部 */
+.subpage-botton{
+	padding-bottom: 100px;
+}
+.subpage-botton a{
+	color: black;
+}
+.subpage-botton ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap; 
+}
+.subpage-botton ul li {
+width: 24%;
+    overflow: hidden;
+}
+.subpage-botton ul li img{
+	    width: 100%;
+	transition: all 0.5s;
+}
+.goods-tao{
+	overflow: hidden;
+}
+.subpage-botton ul li:hover img {
+            transform: scale(1.2);
+        }
+		
+#goods-bottom ul li b{
+	font-weight: normal;
+	color:  #adadad;
+	display: block;
+	text-align: center;
+	 line-height: 32px;
+}
+#goods-bottom ul li p{
+ line-height: 32px;
+	text-align: center;
+	font-family: Raleway;
+    font-weight: normal;
+}
